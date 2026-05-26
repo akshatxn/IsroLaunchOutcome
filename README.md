@@ -88,6 +88,26 @@ Interactive Dashboard Deployment
 
 
 
+# 🚀 ISRO Rocket Launch Analytics & Forecasting  
+
+<div align="center">
+
+### 🛰️ AI-Powered Mission Intelligence for ISRO Launch Analysis  
+
+An end-to-end Data Science & Machine Learning platform for analyzing ISRO launch missions, forecasting mission success probabilities, estimating launch costs, and identifying reusable mission patterns using interactive analytics and predictive modeling.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit" />
+  <img src="https://img.shields.io/badge/XGBoost-ML-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/scikit--learn-Modeling-f7931e?style=for-the-badge&logo=scikitlearn" />
+  <img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas" />
+  <img src="https://img.shields.io/badge/Plotly-Visualization-3f4f75?style=for-the-badge&logo=plotly" />
+</p>
+
+</div>
+
+---
 
 # 📂 Project Structure
 
@@ -97,103 +117,83 @@ ISRO-Rocket-Analytics/
 ├── data/                  # Raw & processed datasets
 ├── notebooks/             # Jupyter notebooks for EDA & modeling
 ├── models/                # Trained ML models
-├── dashboard/             # Streamlit application
+├── dashboard/             # Streamlit dashboard application
 ├── visuals/               # Charts, plots & dashboard assets
 ├── utils/                 # Helper functions & preprocessing scripts
-├── requirements.txt       # Dependencies
+├── requirements.txt       # Project dependencies
 ├── README.md              # Project documentation
-└── app.py                 # Main Streamlit app
-
-
-
-
-
-
-# 🚀 ISRO Rocket Launch Analytics & Forecasting  
-
-<div align="center">
-
-### 🛰️ AI-Powered Mission Intelligence for ISRO Launch Analysis  
-
-Forecasting mission success, launch costs, payload trends, and reusability feasibility using Machine Learning & Interactive Analytics.
-
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
-![XGBoost](https://img.shields.io/badge/XGBoost-ML-orange?style=for-the-badge)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-Modeling-f7931e?style=for-the-badge&logo=scikitlearn)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas)
-![Plotly](https://img.shields.io/badge/Plotly-Visualization-3f4f75?style=for-the-badge&logo=plotly)
-
-</div>
+└── app.py                 # Main Streamlit application
+```
 
 ---
 
 # 🌌 Overview
 
-This project is an end-to-end **Data Science & Machine Learning system** built to analyze and forecast **ISRO rocket missions** using historical launch data.
+This project leverages **Machine Learning, Data Analytics, and Interactive Visualization** to analyze historical ISRO launch missions and generate actionable aerospace insights.
 
-The platform combines:
+Using launch vehicle data, payload information, mission outcomes, weather conditions, and cost metrics, the system performs:
 
-- 📊 Advanced Exploratory Data Analysis (EDA)
-- 🤖 Predictive Machine Learning Models
-- 📈 Interactive Visualization Dashboards
-- 🛰️ Aerospace Mission Intelligence
+- 📊 Exploratory Data Analysis (EDA)
+- 🤖 Predictive Machine Learning Modeling
+- 📈 Statistical Forecasting
+- 🛰️ Mission Segmentation & Clustering
+- 🎛️ Interactive Dashboarding
 
-to support:
+The platform is designed to support:
 
-- Mission success prediction
-- Launch cost forecasting
-- Payload & vehicle analysis
-- Reusability feasibility assessment
-- Strategic mission planning
+- 🚀 Mission Success Prediction
+- 💰 Launch Cost Forecasting
+- 🛰️ Payload & Vehicle Performance Analysis
+- ♻️ Reusability Feasibility Evaluation
+- 📈 Strategic Mission Planning & Optimization
 
 ---
 
 # ✨ Key Features
 
-## 📊 Data Analytics
-- Analyzed **300+ ISRO launch missions**
-- Cleaned and transformed raw aerospace datasets
-- Performed feature engineering on mission parameters
+## 📊 Advanced Data Analytics
+- Processed and analyzed **300+ ISRO launch records**
+- Performed data cleaning, preprocessing, and feature engineering
+- Identified launch trends, payload distributions, and cost drivers
 
-## 🤖 Machine Learning
-- **Regression Models** for launch cost prediction
-- **Classification Models** for mission success forecasting
-- **K-Means Clustering** for launch segmentation
-- **Feature Importance Analysis** for explainable AI
+## 🤖 Machine Learning Pipeline
+- Built regression models for launch cost estimation
+- Developed classification models for mission success prediction
+- Applied K-Means clustering for mission segmentation
+- Implemented feature importance analysis for explainable AI
 
-## 🛰️ Aerospace Insights
-- Payload trend analysis
-- Launch vehicle performance comparison
-- Weather impact evaluation
-- Reusability feasibility estimation
+## 🛰️ Aerospace Intelligence
+- Vehicle-wise launch performance comparison
+- Weather impact analysis on mission outcomes
+- Payload optimization insights
+- Reusability feasibility assessment for PSLV/GSLV missions
 
 ## 🎛️ Interactive Dashboard
-- Real-time analytics using **Streamlit**
-- Dynamic filters & search
-- Plotly interactive visualizations
-- Geospatial launch mapping with Folium
-- Dark-themed modern UI
+- Fully interactive Streamlit dashboard
+- Dynamic filters and real-time analytics
+- Plotly-based interactive charts & graphs
+- Folium geospatial launch visualization
+- Professional dark-themed UI
 
 ---
 
 # 🧠 Machine Learning Workflow
 
 ```text
-Data Collection
-       ↓
-Data Cleaning & Feature Engineering
-       ↓
-Exploratory Data Analysis
-       ↓
-Model Training & Evaluation
-       ↓
-Clustering & Explainability
-       ↓
-Interactive Dashboard Deployment
+📥 Data Collection
+        ↓
+🧹 Data Cleaning & Preprocessing
+        ↓
+⚙️ Feature Engineering
+        ↓
+📊 Exploratory Data Analysis
+        ↓
+🤖 Model Training & Evaluation
+        ↓
+📈 Clustering & Explainability
+        ↓
+🎛️ Interactive Dashboard Deployment
 ```
-
----
 
 # 📂 Project Structure
 
