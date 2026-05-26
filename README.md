@@ -1,214 +1,393 @@
-# 🚀 ISRO Rocket Launch Analytics & Forecasting
+# 🚀 ISRO Rocket Launch Analytics & Forecasting  
 
+<div align="center">
 
+### 🛰️ AI-Powered Mission Intelligence for ISRO Launch Analysis  
 
-**A Data Science project focused on analyzing and forecasting ISRO rocket missions — with insights on PSLV and GSLV vehicles, mission success probabilities, and reusability feasibility.**  
+Forecasting mission success, launch costs, payload trends, and reusability feasibility using Machine Learning & Interactive Analytics.
 
-Built using modern **Python analytics, machine learning, and visualization** techniques to support **cost optimization, mission planning, and strategic decision-making** in aerospace.
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-orange?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Modeling-f7931e?style=for-the-badge&logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3f4f75?style=for-the-badge&logo=plotly)
 
-
-
----
-
-
-
-## 🌌 Project Overview
-
-
-
-This project explores over **300 ISRO launch records**, performing **exploratory data analysis (EDA)**, **machine learning modeling**, and **interactive dashboarding** to:
-
-
-
-- 📈 Forecast **mission costs** and **success probabilities**
-
-- 🛰️ Analyze **payload trends**, **launch sites**, and **mission types**
-
-- ♻️ Evaluate **reusability potential** for PSLV/GSLV rockets
-
-- 🎛️ Provide **real-time decision support** through an interactive **Streamlit dashboard**
-
-
+</div>
 
 ---
 
+# 🌌 Overview
 
+This project is an end-to-end **Data Science & Machine Learning system** built to analyze and forecast **ISRO rocket missions** using historical launch data.
 
-## 🧭 Methods & Workflow
+The platform combines:
 
+- 📊 Advanced Exploratory Data Analysis (EDA)
+- 🤖 Predictive Machine Learning Models
+- 📈 Interactive Visualization Dashboards
+- 🛰️ Aerospace Mission Intelligence
 
+to support:
 
-### 1. 📊 Data Collection & Preparation
-
-- Compiled 300+ ISRO mission records from public databases and media sources  
-
-- Features include: `launch_vehicle`, `payload_mass`, `mission_type`, `launch_cost`, `weather`, and `outcome`
-
-- Cleaned and standardized data using **Pandas**, **NumPy**, and **feature engineering** pipelines
-
-
-
-### 2. 🔍 Exploratory Data Analysis (EDA)
-
-- Visualized distributions and correlations using **Seaborn** and **Matplotlib**
-
-- Built **correlation heatmaps**, **time-series trends**, and **geospatial maps (Folium)**  
-
-- Identified key cost drivers and payload patterns over time
-
-
-
-### 3. 🤖 Statistical & Machine Learning Modeling
-
-Implemented end-to-end ML workflow using **scikit-learn** and **XGBoost**:
-
-- **Regression** → Forecast launch expenses  
-
-- **Classification** → Predict mission success  
-
-- **Clustering (K-Means)** → Segment launches by cost and mission profile  
-
-- **Explainability** → Feature importance analysis to interpret key factors
-
-
-
-### 4. 🗺️ Interactive Visualization & Decision Support
-
-Developed a full-featured **Streamlit Dashboard** with:
-
-- Dynamic filters, search, and visualization panels  
-
-- **Plotly** charts, **Folium** maps, and **scenario simulation tools**  
-
-- Batch prediction interface and feature importance graphs  
-
-- Custom **dark-themed UI** for professional presentation
-
-
-
-### 5. 🧩 Repository Structure & Version Control
-
-Organized with clarity and modularity:
-
-
-
-Version-controlled via **Git & GitHub**, following best practices with `.gitignore` and detailed documentation.
-
-
+- Mission success prediction
+- Launch cost forecasting
+- Payload & vehicle analysis
+- Reusability feasibility assessment
+- Strategic mission planning
 
 ---
 
+# ✨ Key Features
 
+## 📊 Data Analytics
+- Analyzed **300+ ISRO launch missions**
+- Cleaned and transformed raw aerospace datasets
+- Performed feature engineering on mission parameters
 
-## 🏆 Key Accomplishments
+## 🤖 Machine Learning
+- **Regression Models** for launch cost prediction
+- **Classification Models** for mission success forecasting
+- **K-Means Clustering** for launch segmentation
+- **Feature Importance Analysis** for explainable AI
 
+## 🛰️ Aerospace Insights
+- Payload trend analysis
+- Launch vehicle performance comparison
+- Weather impact evaluation
+- Reusability feasibility estimation
 
-
-✅ Built accurate forecasting models for launch cost and success prediction  
-
-✅ Created clustering-based segmentation to identify cost-efficient and reusable mission types  
-
-✅ Delivered explainable AI with feature ranking for transparent decision-making  
-
-✅ Designed an interactive dashboard enabling real-time analytics for mission planning  
-
-✅ Completed full data science lifecycle — from ingestion to deployment
-
-
-
----
-
-
-
-## 🧠 Tech Stack
-
-
-
-| Category | Tools / Libraries |
-
-|-----------|------------------|
-
-| **Languages** | Python |
-
-| **Data Handling** | Pandas, NumPy |
-
-| **Visualization** | Matplotlib, Seaborn, Plotly, Folium |
-
-| **Modeling** | scikit-learn, XGBoost |
-
-| **Dashboarding** | Streamlit |
-
-| **Version Control** | Git, GitHub |
-
-| **Documentation** | Markdown, Jupyter Notebooks |
-
-
+## 🎛️ Interactive Dashboard
+- Real-time analytics using **Streamlit**
+- Dynamic filters & search
+- Plotly interactive visualizations
+- Geospatial launch mapping with Folium
+- Dark-themed modern UI
 
 ---
 
+# 🧠 Machine Learning Workflow
+
+```text
+Data Collection
+       ↓
+Data Cleaning & Feature Engineering
+       ↓
+Exploratory Data Analysis
+       ↓
+Model Training & Evaluation
+       ↓
+Clustering & Explainability
+       ↓
+Interactive Dashboard Deployment
+```
 
 
-## 💻 Dashboard Preview
 
 
 
-🌐 **Interactive Features Include:**
-
-- Launch cost prediction simulator  
-
-- Mission success probability calculator  
-
-- Geospatial launch site visualization  
-
-- Clustering and feature importance plots  
 
 
 
-🖤 Custom-designed **dark theme** for a clean and modern look.
+# 📂 Project Structure
+
+```bash
+ISRO-Rocket-Analytics/
+│
+├── data/                  # Raw & processed datasets
+├── notebooks/             # Jupyter notebooks for EDA & modeling
+├── models/                # Trained ML models
+├── dashboard/             # Streamlit application
+├── visuals/               # Charts, plots & dashboard assets
+├── utils/                 # Helper functions & preprocessing scripts
+├── requirements.txt       # Dependencies
+├── README.md              # Project documentation
+└── app.py                 # Main Streamlit app
 
 
+
+
+
+
+# 🚀 ISRO Rocket Launch Analytics & Forecasting  
+
+<div align="center">
+
+### 🛰️ AI-Powered Mission Intelligence for ISRO Launch Analysis  
+
+Forecasting mission success, launch costs, payload trends, and reusability feasibility using Machine Learning & Interactive Analytics.
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-orange?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Modeling-f7931e?style=for-the-badge&logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3f4f75?style=for-the-badge&logo=plotly)
+
+</div>
 
 ---
 
+# 🌌 Overview
 
+This project is an end-to-end **Data Science & Machine Learning system** built to analyze and forecast **ISRO rocket missions** using historical launch data.
 
-## 📚 Insights & Outcomes
+The platform combines:
 
+- 📊 Advanced Exploratory Data Analysis (EDA)
+- 🤖 Predictive Machine Learning Models
+- 📈 Interactive Visualization Dashboards
+- 🛰️ Aerospace Mission Intelligence
 
+to support:
 
-| Insight Type | Description |
-
-|---------------|-------------|
-
-| **Cost Drivers** | Payload mass, vehicle type, and mission complexity drive expenses |
-
-| **Success Factors** | Weather and payload characteristics strongly influence outcomes |
-
-| **Reusability Feasibility** | Identified optimal missions for potential reusable technology |
-
-| **Strategic Benefit** | Supports budget planning, R&D investment, and policy formulation |
-
-
-
----
-
-
-
-## 🪐 Future Enhancements
-
-- Integrate **deep learning models (LSTM)** for time-based forecasting  
-
-- Add **real-time launch feed** via ISRO API (if available)  
-
-- Deploy dashboard on **Streamlit Cloud / Hugging Face Spaces**  
-
-- Include **international comparisons** with NASA & SpaceX datasets  
-
-
+- Mission success prediction
+- Launch cost forecasting
+- Payload & vehicle analysis
+- Reusability feasibility assessment
+- Strategic mission planning
 
 ---
 
-## 👥 Authors
-- Nipun Varshneya
-- Aastha Singh
-- Akshat Pal
+# ✨ Key Features
+
+## 📊 Data Analytics
+- Analyzed **300+ ISRO launch missions**
+- Cleaned and transformed raw aerospace datasets
+- Performed feature engineering on mission parameters
+
+## 🤖 Machine Learning
+- **Regression Models** for launch cost prediction
+- **Classification Models** for mission success forecasting
+- **K-Means Clustering** for launch segmentation
+- **Feature Importance Analysis** for explainable AI
+
+## 🛰️ Aerospace Insights
+- Payload trend analysis
+- Launch vehicle performance comparison
+- Weather impact evaluation
+- Reusability feasibility estimation
+
+## 🎛️ Interactive Dashboard
+- Real-time analytics using **Streamlit**
+- Dynamic filters & search
+- Plotly interactive visualizations
+- Geospatial launch mapping with Folium
+- Dark-themed modern UI
+
+---
+
+# 🧠 Machine Learning Workflow
+
+```text
+Data Collection
+       ↓
+Data Cleaning & Feature Engineering
+       ↓
+Exploratory Data Analysis
+       ↓
+Model Training & Evaluation
+       ↓
+Clustering & Explainability
+       ↓
+Interactive Dashboard Deployment
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+ISRO-Rocket-Analytics/
+│
+├── data/                  # Raw & processed datasets
+├── notebooks/             # Jupyter notebooks for EDA & modeling
+├── models/                # Trained ML models
+├── dashboard/             # Streamlit application
+├── visuals/               # Charts, plots & dashboard assets
+├── utils/                 # Helper functions & preprocessing scripts
+├── requirements.txt       # Dependencies
+├── README.md              # Project documentation
+└── app.py                 # Main Streamlit app
+```
+
+---
+
+# 🔍 Exploratory Data Analysis
+
+The project includes detailed EDA using:
+
+- Correlation Heatmaps  
+- Payload Distribution Analysis  
+- Mission Success Trends  
+- Vehicle-wise Performance Comparison  
+- Time-Series Launch Trends  
+- Geospatial Launch Site Mapping  
+
+---
+
+# 📈 Key Insights
+
+| Insight | Observation |
+|---|---|
+| 🚀 Cost Drivers | Payload mass & mission complexity strongly affect launch expenses |
+| 🌦️ Success Factors | Weather and payload characteristics influence mission outcomes |
+| ♻️ Reusability Potential | Certain PSLV/GSLV missions show reusable feasibility patterns |
+| 📊 Strategic Planning | ML forecasts support budgeting & mission optimization |
+
+---
+
+# 🤖 Models Implemented
+
+| Task | Algorithm |
+|---|---|
+| Launch Cost Prediction | XGBoost Regressor |
+| Mission Success Prediction | Random Forest / XGBoost |
+| Mission Segmentation | K-Means Clustering |
+| Feature Explainability | Feature Importance Analysis |
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn, Plotly, Folium |
+| Machine Learning | scikit-learn, XGBoost |
+| Dashboarding | Streamlit |
+| Version Control | Git, GitHub |
+| Documentation | Markdown, Jupyter Notebook |
+
+---
+
+# 💻 Dashboard Features
+
+## 🌐 Interactive Modules
+
+- 🚀 Launch Cost Prediction Simulator  
+- 🎯 Mission Success Probability Calculator  
+- 🛰️ Vehicle Performance Analytics  
+- 🗺️ Geospatial Launch Visualization  
+- 📊 Clustering & Feature Importance Graphs  
+- 📈 Time-Series Trend Analysis  
+
+---
+
+# 📸 Dashboard Preview
+
+Add your screenshots or GIFs here:
+
+```bash
+/dashboard_screenshots
+```
+
+### Recommended Screenshots
+- Homepage dashboard  
+- Prediction interface  
+- Geospatial map  
+- Feature importance graph  
+- Clustering visualization  
+
+---
+
+# ⚡ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/ISRO-Rocket-Analytics.git
+cd ISRO-Rocket-Analytics
+```
+
+---
+
+## 2️⃣ Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+#### Windows
+```bash
+venv\Scripts\activate
+```
+
+#### Mac/Linux
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Run Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 📊 Future Enhancements
+
+- 🔮 LSTM-based deep learning forecasting  
+- 🌍 NASA & SpaceX comparative analytics  
+- ☁️ Deployment on Streamlit Cloud / Hugging Face Spaces  
+- 📡 Real-time ISRO launch feed integration  
+- 🧠 SHAP explainability visualizations  
+- 📱 Mobile-responsive dashboard UI  
+
+---
+
+# 🏆 Achievements
+
+✅ Built an end-to-end aerospace analytics platform  
+
+✅ Developed ML models for mission success & cost prediction  
+
+✅ Implemented clustering for reusable mission identification  
+
+✅ Created explainable AI workflows for transparent analysis  
+
+✅ Designed a production-style interactive dashboard  
+
+✅ Completed the full Data Science lifecycle from ingestion to deployment  
+
+---
+
+# 👨‍💻 Authors
+
+| Name | Role |
+|---|---|
+| Akshat Pal | Machine Learning & Dashboard Development |
+| Nipun Varshneya | Data Analysis & Research |
+| Aastha Singh | Visualization & Documentation |
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+- ⭐ Star the repository  
+- 🍴 Fork the project  
+- 🛰️ Contribute to future improvements  
+
+---
+
+<div align="center">
+
+### 🚀 Turning Aerospace Data into Actionable Intelligence
+
+</div>
